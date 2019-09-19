@@ -10078,15 +10078,15 @@ margin-top: 10px;
 
   }
 
-  #todosd {
-    position: fixed;
+  p#todosd {
+    position: relative;
+    top: 125px;
+    left: 400px;
     background-color: rgb(255, 255, 255);
-    width: 100.01%;
+    width: 500px;
   }
 
-  body#bodytrav{
-    overflow: hidden;
-  }
+
 
   #iconecons {
     background-repeat: no-repeat;
