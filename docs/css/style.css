@@ -10078,12 +10078,10 @@ margin-top: 10px;
 
   }
 
-  p#todosd {
+  #todosd {
     position: relative;
-    top: 125px;
-    left: 400px;
     background-color: rgb(255, 255, 255);
-    width: 500px;
+    width: 100%;
   }
 
 
