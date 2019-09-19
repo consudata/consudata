@@ -33,11 +33,28 @@
     
   </head>
   <body id="bodytrav" >
+      <style>
+          .left, .right {
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+          }
+          
+          .main {
+            float: left;
+            width: 60%; /* The width is 60%, by default */
+          }
+          
+          /* Use a media query to add a breakpoint at 800px: */
+          @media screen and (max-width: 800px) {
+            .left, .main, .right {
+              width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+          }
+          </style>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
           
-        <a class="navbar-brand" href="index.html"></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> 
         </button>
@@ -55,7 +72,7 @@
 	      </div>
 	    </div>
     </nav>
-    <img id="todosd" src="/images/bg_12.png" width="100%">
+    <img src="/images/bg_12.png" style="max-width:100%;height:auto;">
     
   
               <script src="js/jquery.min.js"></script>
