@@ -10098,10 +10098,9 @@ margin-top: 10px;
 
 }
 
-#fixedwhite{
-  overflow: auto;
-  white-space: normal;
-}
 
+div#fbman {
+  overflow: hidden;
+}
 
   
