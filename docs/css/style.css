@@ -37,6 +37,11 @@ body {
     display: inline-block;
     margin: 5px;
   }
+
+  .img{
+width: 100%;
+
+  }
   
  }
 
@@ -209,11 +214,11 @@ pre {
 figure {
   margin: 0 0 1rem; }
 
-img {
-  vertical-align: middle;
-  border-style: none;
-  
-}
+  img {
+    vertical-align: middle;
+    border-style: none;
+    
+  }
 
 svg {
   overflow: hidden;
@@ -547,7 +552,9 @@ pre {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  
+}
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -10074,7 +10081,7 @@ textarea.form-control {
   color: white;
   border-radius: 10px;
   margin-left: 1150px;
-margin-top: 110px;
+  margin-top: 110px;
 }
 
 #imgpos {
@@ -10121,4 +10128,9 @@ margin-top: 10px;
 div#fbman {
   overflow: hidden;
   
+}
+
+#map {
+  height: 300px;
+
 }
