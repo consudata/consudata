@@ -5,7 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-   
+ @charset "UTF-8";
+ 
  @media (max-width: 320px) {
 
   .container {
