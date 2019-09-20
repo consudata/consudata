@@ -10125,12 +10125,7 @@ margin-top: 10px;
 }
 
 
-div#blocks {
+#blocks {
   overflow: hidden;
   
-}
-
-#map {
-  height: 300px;
-
 }
