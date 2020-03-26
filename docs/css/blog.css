@@ -11,7 +11,6 @@ body.blog {
   
   /* Header/Blog Title */
   .header {
-    padding: 30px;
     font-size: 40px;
     text-align: center;
     background: rgb(123, 123, 126);
