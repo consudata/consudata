@@ -5,7 +5,8 @@ body.blog {
     padding: 20px;
     background: #f1f1f1;
     background-color: rgb(48, 47, 47);
-    
+    background-image: url("/images/logoo.jpg") ;
+ 
   }
   
   /* Header/Blog Title */
@@ -22,7 +23,7 @@ body.blog {
   .leftcolumn {
     float: left;
     width: 50%;
-    margin-left: 300px;
+    margin-left: 310px;
  
   }
   
