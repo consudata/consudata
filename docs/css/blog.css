@@ -1,7 +1,11 @@
-body {
+
+
+body.blog {
     font-family: Arial;
     padding: 20px;
     background: #f1f1f1;
+    background-color: rgb(48, 47, 47);
+    
   }
   
   /* Header/Blog Title */
@@ -9,14 +13,17 @@ body {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    background: rgb(123, 123, 126);
+    
   }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {
     float: left;
-    width: 75%;
+    width: 50%;
+    margin-left: 300px;
+ 
   }
   
   /* Right column */
@@ -24,6 +31,7 @@ body {
     float: left;
     width: 25%;
     padding-left: 20px;
+    
   }
   
   /* Fake image */
@@ -31,6 +39,7 @@ body {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+    
   }
   
   /* Add a card effect for articles */
@@ -38,6 +47,7 @@ body {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    
   }
   
   /* Clear floats after the columns */
@@ -45,6 +55,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    
   }
   
   /* Footer */
@@ -53,6 +64,7 @@ body {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    background-color: white;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -62,3 +74,4 @@ body {
       padding: 0;
     }
   }
+
