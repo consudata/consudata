@@ -98,4 +98,11 @@ body.blog {
     background-image: url("/images/logoo.jpg") ;
   background-size: 400px;
   }
+
+  .header {
+    font-size: 1px;
+    text-align: center;
+    background: rgb(123, 123, 126);
+    
+  }
   }
