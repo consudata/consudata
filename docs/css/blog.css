@@ -76,3 +76,27 @@ body.blog {
     }
   }
 
+  @media screen and (max-width: 800px) {
+  .leftcolumn {
+    float: left;
+    width: 350px;
+    margin-left: 30px;
+    
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 15%;
+    margin-left: 30px;
+  }
+
+  body.blog {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    background-color: rgb(48, 47, 47);
+    background-image: url("/images/logoo.jpg") ;
+  background-size: 400px;
+  }
+  }
